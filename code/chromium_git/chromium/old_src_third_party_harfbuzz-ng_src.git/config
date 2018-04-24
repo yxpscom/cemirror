@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://chromium.googlesource.com/external/github.com/harfbuzz/harfbuzz.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/branch-heads/*:refs/remotes/branch-heads/*

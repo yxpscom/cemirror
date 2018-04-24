@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+cdbf24e87f0d8eaf16a733a293b71bc043fb79c7 refs/remotes/origin/upstream/accelerate-lookups
+58e569e5f7143a12cadcd6c42434558f9981e00e refs/remotes/origin/upstream/coverity_scan
+648e6717dcd3d4042a8d1053f45454f2fab42419 refs/remotes/origin/upstream/gi-identfilter
+58e569e5f7143a12cadcd6c42434558f9981e00e refs/remotes/origin/upstream/master
+f462f2dbcf0cc9e069c744c4de735c17d892f291 refs/remotes/origin/upstream/run-tests-stream

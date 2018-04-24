@@ -1,0 +1,5 @@
+cdbf24e87f0d8eaf16a733a293b71bc043fb79c7	not-for-merge	branch 'upstream/accelerate-lookups' of https://chromium.googlesource.com/external/github.com/harfbuzz/harfbuzz
+58e569e5f7143a12cadcd6c42434558f9981e00e	not-for-merge	branch 'upstream/coverity_scan' of https://chromium.googlesource.com/external/github.com/harfbuzz/harfbuzz
+648e6717dcd3d4042a8d1053f45454f2fab42419	not-for-merge	branch 'upstream/gi-identfilter' of https://chromium.googlesource.com/external/github.com/harfbuzz/harfbuzz
+58e569e5f7143a12cadcd6c42434558f9981e00e	not-for-merge	branch 'upstream/master' of https://chromium.googlesource.com/external/github.com/harfbuzz/harfbuzz
+f462f2dbcf0cc9e069c744c4de735c17d892f291	not-for-merge	branch 'upstream/run-tests-stream' of https://chromium.googlesource.com/external/github.com/harfbuzz/harfbuzz

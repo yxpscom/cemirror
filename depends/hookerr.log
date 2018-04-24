@@ -1,0 +1,43 @@
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/build/landmines.py' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/update_depot_tools_toggle.py --disable' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/tools/remove_stale_pyc_files.py src/android_webview/tools src/build/android src/gpu/gles2_conform_support src/infra src/ppapi src/printing src/third_party/catapult src/third_party/closure_compiler/build src/third_party/WebKit/Tools/Scripts src/tools' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/build/download_nacl_toolchains.py --mode nacl_core_sdk sync --extract' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/build/vs_toolchain.py update --force' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/tools/clang/scripts/update.py' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/build/util/lastchange.py -o src/build/util/LASTCHANGE' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/build/util/lastchange.py -m GPU_LISTS_VERSION --revision-id-only --header src/gpu/config/gpu_lists_version.h' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/build/util/lastchange.py -m SKIA_COMMIT_HASH -s src/third_party/skia --header src/skia/ext/skia_commit_hash.h' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --bucket chromium-gn -s src/buildtools/win/gn.exe.sha1' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --bucket chromium-clang-format -s src/buildtools/win/clang-format.exe.sha1' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --bucket chromium-browser-clang/rc -s src/build/toolchain/win/rc/win/rc.exe.sha1' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --bucket chromium-browser-clang/orderfiles -d src/chrome/build' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --bucket chromium-luci -d src/tools/luci-go/win64' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/build/get_syzygy_binaries.py --output-dir=src/third_party/syzygy/binaries --revision=8164b24ebde9c5649c9a09e88a7fc0b0fcbd1bc5 --overwrite --copy-dia-binaries' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --directory --recursive --no_auth --num_threads=16 --bucket chromium-apache-win32 src/third_party/apache-win32' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --bucket v8-wasm-fuzzer -s src/v8/test/fuzzer/wasm_corpus.tar.gz.sha1' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --bucket chromium-nodejs/8.9.1 -s src/third_party/node/win/node.exe.sha1' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --extract --no_auth --bucket chromium-nodejs -s src/third_party/node/node_modules.tar.gz.sha1' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'vpython.bat src/tools/perf/conditionally_execute --gyp-condition fetch_telemetry_dependencies=1 src/third_party/catapult/telemetry/bin/fetch_telemetry_binary_dependencies' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'E:\CEF\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe src/third_party/depot_tools/download_from_google_storage.py --no_resume --no_auth --num_threads=4 --bucket chromium-binary-patching -d src/chrome/installer/zucchini/testdata' in 'e:\CEF\code\chromium_git\chromium'
+________ running 'vpython.bat -vpython-spec src/.vpython -vpython-tool install' in 'e:\CEF\code\chromium_git\chromium'
+
+WARNING: 'src\third_party\angle\third_party\spirv-tools\src' is no longer part of this client.  It is recommended that you manually remove it.
+
+
+WARNING: 'src\third_party\libaom\source\libaom' is no longer part of this client.  It is recommended that you manually remove it.
+
+
+WARNING: 'src\chrome\browser\resources\media_router\extension\src' is no longer part of this client.  It is recommended that you manually remove it.
+
+
+WARNING: 'src\third_party\angle\third_party\glslang\src' is no longer part of this client.  It is recommended that you manually remove it.
+
+
+WARNING: 'src\third_party\angle\third_party\vulkan-validation-layers\src' is no longer part of this client.  It is recommended that you manually remove it.
+
+
+WARNING: 'src/third_party/harfbuzz-ng/src' has been moved from DEPS to a higher level checkout. The git folder containing all the local branches has been saved to e:\CEF\code\chromium_git\chromium\old_src_third_party_harfbuzz-ng_src.git.
+If you don't care about its state you can safely remove that folder to free up space.
+
+WARNING: 'src\third_party\angle\third_party\spirv-headers\src' is no longer part of this client.  It is recommended that you manually remove it.
+
